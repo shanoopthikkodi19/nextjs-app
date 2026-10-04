@@ -3,7 +3,8 @@
 /jspm_packages
 
 # Next.js Build Outputs
-/.next/
+.next
+.git
 /out/
 /build/
 
