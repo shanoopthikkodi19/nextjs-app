@@ -12,9 +12,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "My Docker App",
-  description: "Next.js running in Docker",
+export const metadata: Metadata = {
+  title: "Shanoop T K | Linux System Administrator & DevOps",
+  description:
+    "RHCSA-certified Linux system administrator skilled in Ansible, Docker, Podman, CI/CD, AWS and web server security.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
